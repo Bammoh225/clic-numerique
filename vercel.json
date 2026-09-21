@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://clic-numerique.onrender.com"
+      "destination": "https://clic-numerique.onrender.com/api/$1"
     },
     {
       "source": "/(.*)",
