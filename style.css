@@ -1,0 +1,236 @@
+/* ==========================================================================
+   CLIC - DESIGN SYSTEM EDTECH & INSTITUTIONNEL
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  /* --- Couleurs Primaires --- */
+  --color-primary-inst: #6C5CE7;      /* Bleu Magenta */
+  --color-primary-doux: #9370DB;      /* Pourpre Moyen */
+  --color-primary-profond: #3B2BAA;   /* Violet Profond */
+  
+  /* --- Couleurs Secondaires & Neutres --- */
+  --color-accent-or: #D4A847;         /* Or Ivoirien */
+  --color-accent-turq: #1ECAC8;       /* Turquoise Digital */
+  --color-noir-digital: #0A0A0F;      /* Noir Digital */
+  --color-blanc-pur: #FFFFFF;         /* Blanc Pur */
+  
+  --color-gris-bg: #F8F9FA;           /* Fond de section léger */
+  --color-gris-bordure: #E9ECEF;      /* Bordures */
+  --color-gris-texte: #495057;        /* Texte secondaire */
+  --color-gris-clair: #DEE2E6;
+
+  /* --- Typographies --- */
+  --font-heading: 'Times New Roman', Times, serif;
+  --font-ui: 'Montserrat', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  /* --- Échelle Typographique Stricte --- */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 20px;
+  --text-2xl: 24px;
+  --text-3xl: 28px;
+  --text-4xl: 40px;
+  --text-5xl: 64px;
+
+  /* --- Espacements (Base 8px) --- */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-12: 96px;
+  --space-16: 128px;
+
+  /* --- UI Elements --- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 10px 15px -3px rgba(108, 92, 231, 0.1), 0 4px 6px -2px rgba(108, 92, 231, 0.05);
+  --transition-standard: all 0.2s ease-in-out;
+}
+
+/* ==========================================================================
+   RESET & BASICS
+   ========================================================================== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-ui);
+  color: var(--color-noir-digital);
+  background-color: var(--color-blanc-pur);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 var(--space-4);
+}
+
+/* ==========================================================================
+   TYPOGRAPHIE
+   ========================================================================== */
+.font-times { font-family: var(--font-heading); }
+.font-ui { font-family: var(--font-ui); }
+.font-mono { font-family: var(--font-mono); }
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--text-5xl);
+  line-height: 1.1;
+  color: var(--color-noir-digital);
+  font-weight: normal;
+  letter-spacing: -0.02em;
+}
+h2 {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  line-height: 1.2;
+  color: var(--color-primary-profond);
+  font-weight: normal;
+  margin-bottom: var(--space-4);
+}
+h3 {
+  font-family: var(--font-ui);
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--color-noir-digital);
+}
+h4 {
+  font-family: var(--font-ui);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--color-noir-digital);
+}
+
+p {
+  font-size: var(--text-base);
+  margin-bottom: var(--space-2);
+}
+.text-lg { font-size: var(--text-lg); }
+.text-sm { font-size: var(--text-sm); }
+.text-xs { font-size: var(--text-xs); }
+.text-muted { color: var(--color-gris-texte); }
+
+a { text-decoration: none; color: var(--color-primary-inst); transition: var(--transition-standard); }
+a:hover { color: var(--color-primary-profond); }
+
+/* ==========================================================================
+   BOUTONS
+   ========================================================================== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--text-base);
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: var(--transition-standard);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--color-primary-inst);
+  color: var(--color-blanc-pur);
+}
+.btn-primary:hover {
+  background-color: var(--color-primary-profond);
+  color: var(--color-blanc-pur);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-accent {
+  background-color: var(--color-accent-or);
+  color: var(--color-noir-digital);
+}
+.btn-accent:hover {
+  background-color: #C39A3A;
+  color: var(--color-noir-digital);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border-color: var(--color-primary-inst);
+  color: var(--color-primary-inst);
+}
+.btn-outline:hover {
+  background-color: var(--color-gris-bg);
+  color: var(--color-primary-profond);
+  border-color: var(--color-primary-profond);
+}
+
+/* ==========================================================================
+   LAYOUT & SECTIONS
+   ========================================================================== */
+.section { padding: var(--space-12) 0; }
+.section-sm { padding: var(--space-8) 0; }
+.bg-light { background-color: var(--color-gris-bg); }
+.bg-dark { background-color: var(--color-noir-digital); color: var(--color-blanc-pur); }
+.bg-brand { background-color: var(--color-primary-profond); color: var(--color-blanc-pur); }
+
+/* ==========================================================================
+   COMPOSANTS SPÉCIFIQUES
+   ========================================================================== */
+/* Cartes */
+.card {
+  background: var(--color-blanc-pur);
+  border: 1px solid var(--color-gris-bordure);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: var(--transition-standard);
+  box-shadow: var(--shadow-sm);
+}
+.card:hover {
+  box-shadow: var(--shadow-hover);
+  border-color: var(--color-primary-inst);
+}
+
+/* Grilles communes */
+.grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-6); }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4); }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--space-4); }
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.badge-turq { background-color: var(--color-accent-turq); color: var(--color-noir-digital); }
+.badge-or { background-color: var(--color-accent-or); color: var(--color-noir-digital); }
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  h1 { font-size: var(--text-4xl); }
+  h2 { font-size: var(--text-3xl); }
+}
+
+@media (max-width: 768px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; gap: var(--space-4); }
+  h1 { font-size: var(--text-3xl); }
+  .section { padding: var(--space-8) 0; }
+}

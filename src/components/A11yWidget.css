@@ -1,0 +1,88 @@
+.a11y-widget {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.a11y-toggle {
+  background-color: var(--color-accent-turq);
+  color: var(--color-noir-digital);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.a11y-toggle:hover {
+  transform: scale(1.1);
+}
+
+.a11y-panel {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  background-color: var(--color-blanc-pur);
+  border: 2px solid var(--color-primary-inst);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.a11y-panel h4 {
+  margin-top: 0;
+  font-family: var(--font-heading);
+  color: var(--color-primary-profond);
+}
+
+.a11y-btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--color-primary-inst);
+  background: transparent;
+  color: var(--color-primary-inst);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.a11y-btn.active {
+  background-color: var(--color-primary-inst);
+  color: var(--color-blanc-pur);
+}
+
+/* Global A11y Classes */
+.high-contrast {
+  --bg-body: #000000;
+  --text-main: #FFFFFF;
+  --bg-card: #111111;
+  --color-primary-inst: #FFFF00;
+  --color-primary-profond: #FFFF00;
+  --color-accent-turq: #FFFF00;
+  --border-color: #FFFF00;
+}
+.high-contrast h1, .high-contrast h2, .high-contrast h3, .high-contrast h4 {
+  color: #FFFF00;
+}
+.high-contrast .header {
+  background-color: #000000;
+  border-bottom: 2px solid #FFFF00;
+}
+.high-contrast .nav a {
+  color: #FFFFFF;
+}
+.high-contrast .nav a:hover, .high-contrast .btn-primary {
+  color: #000000;
+  background-color: #FFFF00;
+}
+
+.large-text {
+  font-size: 110%;
+}
