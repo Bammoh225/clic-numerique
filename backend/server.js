@@ -95,6 +95,20 @@ app.get('/api/volunteers', async (req, res) => {
   }
 });
 
+app.post('/api/volunteers', async (req, res) => {
+  const { name, role, expertise } = req.body;
+  const date = new Date().toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+  try {
+    const result = await dbRun(
+      'INSERT INTO volunteers (name, role, expertise, date, status) VALUES (?, ?, ?, ?, ?)',
+      [name, role || 'Mentor', expertise, date, 'Nouveau']
+    );
+    res.status(201).json({ id: result.id, message: 'Candidature reçue' });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // Start Server
 app.listen(PORT, () => {
   console.log(`🚀 Serveur CLIC Backend en cours d'exécution sur http://localhost:${PORT}`);
