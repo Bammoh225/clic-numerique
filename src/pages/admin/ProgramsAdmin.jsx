@@ -100,7 +100,7 @@ function ProgramsAdmin() {
         </div>
       ) : (
         <div className="card">
-          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 'var(--text-sm)' }}>
+           <div className="table-responsive"><table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 'var(--text-sm)' }}>
             <thead>
               <tr style={{ backgroundColor: 'var(--color-gris-bg)', color: 'var(--color-gris-texte)', borderBottom: '1px solid var(--color-gris-bordure)' }}>
                 <th style={{ padding: '16px' }}>Programme</th>
@@ -133,7 +133,7 @@ function ProgramsAdmin() {
                 </tr>
               ))}
             </tbody>
-          </table>
+          </table></div>
         </div>
       )}
     </div>

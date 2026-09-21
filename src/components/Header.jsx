@@ -6,7 +6,7 @@ function Header() {
     <>
       {/* 1. TOP BAR */}
       <div style={{ backgroundColor: 'var(--color-primary-profond)', color: 'var(--color-blanc-pur)', padding: '6px 0', fontSize: 'var(--text-xs)' }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div className="container header-top">
           <div style={{ display: 'flex', gap: 'var(--space-3)', opacity: 0.9 }}>
             <span>📞 +225 00 00 00 00 00</span>
             <span>✉️ contact@clic-ci.org</span>
@@ -21,7 +21,7 @@ function Header() {
 
       {/* 2. HEADER STICKY */}
       <header className="header" style={{ backgroundColor: 'var(--color-blanc-pur)', borderBottom: '1px solid var(--color-gris-bordure)', position: 'sticky', top: 0, zIndex: 1000, padding: 'var(--space-2) 0' }}>
-        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div className="container header-main">
           
           {/* Logo */}
           <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
@@ -29,7 +29,7 @@ function Header() {
           </Link>
           
           {/* Navigation */}
-          <nav style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-4)' }}>
+          <nav className="header-nav">
             <Link to="/" style={{ fontWeight: 600, color: 'var(--color-noir-digital)' }}>Accueil</Link>
             <Link to="/education" style={{ fontWeight: 600, color: 'var(--color-noir-digital)' }}>Programmes</Link>
             <Link to="/talents" style={{ fontWeight: 600, color: 'var(--color-noir-digital)' }}>Talents</Link>
@@ -37,7 +37,7 @@ function Header() {
           </nav>
 
           {/* Actions Droite */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-3)' }}>
+          <div className="header-actions">
             <button style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1.2rem', color: 'var(--color-noir-digital)' }}>🔍</button>
             <Link to="/benevolat" className="btn btn-accent">Nous rejoindre</Link>
           </div>

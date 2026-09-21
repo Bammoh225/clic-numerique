@@ -33,7 +33,7 @@ function Dashboard() {
         {/* Dernières candidatures (Fictif) */}
         <div className="card" style={{ padding: 'var(--space-4)' }}>
           <h4 style={{ marginBottom: 'var(--space-4)', borderBottom: '1px solid var(--color-gris-bordure)', paddingBottom: 'var(--space-2)' }}>Dernières candidatures "Mentors"</h4>
-          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 'var(--text-sm)' }}>
+           <div className="table-responsive"><table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: 'var(--text-sm)' }}>
             <thead>
               <tr style={{ color: 'var(--color-gris-texte)', borderBottom: '1px solid var(--color-gris-bordure)' }}>
                 <th style={{ padding: '12px 8px' }}>Nom</th>
@@ -62,7 +62,7 @@ function Dashboard() {
                 <td style={{ padding: '12px 8px' }}><span className="badge" style={{ backgroundColor: '#E8F5E9', color: '#388E3C' }}>Validé</span></td>
               </tr>
             </tbody>
-          </table>
+          </table></div>
         </div>
 
         {/* Actions rapides */}
