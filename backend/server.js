@@ -1,12 +1,20 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { dbQuery, dbRun } from './database.js';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
+
+// Servir les fichiers statiques du frontend (React compilé)
+app.use(express.static(path.join(__dirname, '../dist')));
 
 // ==========================================
 // ROUTES : ACTUALITÉS (NEWS)
@@ -107,6 +115,13 @@ app.post('/api/volunteers', async (req, res) => {
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
+});
+
+// ==========================================
+// ROUTE FALLBACK (POUR REACT ROUTER)
+// ==========================================
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../dist', 'index.html'));
 });
 
 // Start Server
