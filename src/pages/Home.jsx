@@ -30,7 +30,7 @@ function Home() {
             <p className="text-lg text-muted" style={{ margin: 'var(--space-4) 0' }}>
               Rejoignez le mouvement pour l'alphabétisation digitale et l'innovation citoyenne. Construisons ensemble une société où la technologie est une chance pour tous.
             </p>
-            <div style={{ display: 'flex', gap: 'var(--space-3)' }}>
+            <div style={{ display: 'flex', gap: 'var(--space-3)', flexWrap: 'wrap' }}>
               <Link to="/education" className="btn btn-primary">Découvrir nos programmes</Link>
               <Link to="/benevolat" className="btn btn-outline">Faire un don</Link>
             </div>
@@ -40,7 +40,7 @@ function Home() {
           <div style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
             
             {/* Forme géométrique de fond */}
-            <div style={{ position: 'absolute', top: '10%', right: '0', width: '300px', height: '300px', borderRadius: '50% 50% 50% 0', backgroundColor: 'var(--color-gris-bg)', zIndex: 0, border: '2px dashed var(--color-primary-inst)', opacity: 0.2 }}></div>
+            <div className="hide-on-mobile" style={{ position: 'absolute', top: '10%', right: '0', width: '300px', height: '300px', borderRadius: '50% 50% 50% 0', backgroundColor: 'var(--color-gris-bg)', zIndex: 0, border: '2px dashed var(--color-primary-inst)', opacity: 0.2 }}></div>
 
             {/* Placeholder Image Principale */}
             <div style={{ width: '80%', aspectRatio: '4/5', backgroundColor: 'var(--color-gris-clair)', borderRadius: 'var(--radius-md)', zIndex: 1, position: 'relative', overflow: 'hidden' }}>
@@ -48,12 +48,12 @@ function Home() {
             </div>
 
             {/* Cartes Flottantes */}
-            <div className="card" style={{ position: 'absolute', top: '20%', left: '-10%', zIndex: 2, padding: 'var(--space-2) var(--space-3)' }}>
+            <div className="card hide-on-mobile" style={{ position: 'absolute', top: '20%', left: '-10%', zIndex: 2, padding: 'var(--space-2) var(--space-3)' }}>
               <p className="font-mono" style={{ color: 'var(--color-accent-turq)', fontSize: 'var(--text-xl)', fontWeight: 700 }}>5 000+</p>
               <p className="text-xs text-muted" style={{ margin: 0 }}>Jeunes formés</p>
             </div>
 
-            <div className="card" style={{ position: 'absolute', bottom: '15%', right: '-5%', zIndex: 2, padding: 'var(--space-2) var(--space-3)' }}>
+            <div className="card hide-on-mobile" style={{ position: 'absolute', bottom: '15%', right: '-5%', zIndex: 2, padding: 'var(--space-2) var(--space-3)' }}>
               <p className="font-mono" style={{ color: 'var(--color-accent-or)', fontSize: 'var(--text-xl)', fontWeight: 700 }}>95%</p>
               <p className="text-xs text-muted" style={{ margin: 0 }}>De satisfaction</p>
             </div>
@@ -308,14 +308,14 @@ function Home() {
           
           <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)', maxWidth: '900px', margin: '0 auto' }}>
             
-            <div className="card" style={{ display: 'flex', alignItems: 'center', padding: '0', overflow: 'hidden' }}>
+            <div className="card flex-col-mobile" style={{ display: 'flex', alignItems: 'center', padding: '0', overflow: 'hidden' }}>
               <div className="bg-brand" style={{ padding: 'var(--space-3)', minWidth: '120px', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <span className="font-mono text-2xl" style={{ color: 'var(--color-accent-turq)', fontWeight: 700, lineHeight: 1 }}>15</span>
                 <span className="font-mono text-sm" style={{ fontWeight: 700 }}>OCT</span>
               </div>
               <div style={{ padding: 'var(--space-3)', flexGrow: 1 }}>
                 <h4 style={{ margin: 0 }}>Webinaire : Les métiers du Web</h4>
-                <div style={{ display: 'flex', gap: 'var(--space-3)', marginTop: '8px' }}>
+                <div style={{ display: 'flex', gap: 'var(--space-3)', marginTop: '8px', flexWrap: 'wrap' }}>
                   <span className="text-sm text-muted">🕒 14:00 - 16:00</span>
                   <span className="badge badge-turq">En ligne</span>
                 </div>
@@ -325,14 +325,14 @@ function Home() {
               </div>
             </div>
 
-            <div className="card" style={{ display: 'flex', alignItems: 'center', padding: '0', overflow: 'hidden' }}>
+            <div className="card flex-col-mobile" style={{ display: 'flex', alignItems: 'center', padding: '0', overflow: 'hidden' }}>
               <div className="bg-brand" style={{ padding: 'var(--space-3)', minWidth: '120px', textAlign: 'center', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                 <span className="font-mono text-2xl" style={{ color: 'var(--color-accent-turq)', fontWeight: 700, lineHeight: 1 }}>22</span>
                 <span className="font-mono text-sm" style={{ fontWeight: 700 }}>NOV</span>
               </div>
               <div style={{ padding: 'var(--space-3)', flexGrow: 1 }}>
                 <h4 style={{ margin: 0 }}>Hackathon : Tech for Good Abidjan</h4>
-                <div style={{ display: 'flex', gap: 'var(--space-3)', marginTop: '8px' }}>
+                <div style={{ display: 'flex', gap: 'var(--space-3)', marginTop: '8px', flexWrap: 'wrap' }}>
                   <span className="text-sm text-muted">🕒 09:00 - 18:00</span>
                   <span className="badge badge-or">Présentiel</span>
                 </div>

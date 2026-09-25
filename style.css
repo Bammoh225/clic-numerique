@@ -61,7 +61,7 @@
    ========================================================================== */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { font-size: 16px; scroll-behavior: smooth; }
+html { font-size: 16px; scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: var(--font-ui);
@@ -69,6 +69,7 @@ body {
   background-color: var(--color-blanc-pur);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 .container {
@@ -263,4 +264,8 @@ a:hover { color: var(--color-primary-profond); }
   .admin-sidebar nav { flex-direction: row; flex-wrap: wrap; padding: var(--space-2) !important; gap: 4px; overflow-x: auto; }
   .admin-link { flex: 1 1 auto; white-space: nowrap; font-size: var(--text-xs); padding: 8px !important; text-align: center; border-left: none !important; border-bottom: 2px solid transparent; }
   .admin-link.active { border-bottom-color: var(--color-accent-or); }
+
+  /* Utilitaires Mobile */
+  .hide-on-mobile { display: none !important; }
+  .flex-col-mobile { flex-direction: column !important; align-items: stretch !important; }
 }

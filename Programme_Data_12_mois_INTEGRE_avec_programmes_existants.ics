@@ -1,0 +1,1334 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ChatGPT//Programme Data integre//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Data — Parcours 12 mois (intégré)
+X-WR-TIMEZONE:Africa/Abidjan
+BEGIN:VEVENT
+UID:data-learning-1@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20260923T163000
+DTEND;TZID=Africa/Abidjan:20260923T173000
+SUMMARY:📊 Data — SQL & modèle de données
+DESCRIPTION:Étude : Modèle relationnel\, tables\, clés primaires/étrangères\, normalisation.\nObjectif : Appliquer le modèle de données au CIV Super App.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-1@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20260927T140000
+DTEND;TZID=Africa/Abidjan:20260927T160000
+SUMMARY:🧪 Data Lab — Semaine 01
+DESCRIPTION:Pratique : Appliquer le modèle de données au CIV Super App.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-2@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20260930T163000
+DTEND;TZID=Africa/Abidjan:20260930T173000
+SUMMARY:📊 Data — SQL & requêtes
+DESCRIPTION:Étude : JOIN\, GROUP BY\, HAVING\, sous-requêtes et agrégations.\nObjectif : Écrire des requêtes d’analyse sur les données de l’application.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-2@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261004T140000
+DTEND;TZID=Africa/Abidjan:20261004T160000
+SUMMARY:🧪 Data Lab — Semaine 02
+DESCRIPTION:Pratique : Écrire des requêtes d’analyse sur les données de l’application.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-3@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261007T163000
+DTEND;TZID=Africa/Abidjan:20261007T173000
+SUMMARY:📊 Data — API → Data
+DESCRIPTION:Étude : JSON\, pagination\, collecte de données depuis une API et stockage.\nObjectif : Construire un petit flux API → PostgreSQL.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-3@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261011T140000
+DTEND;TZID=Africa/Abidjan:20261011T160000
+SUMMARY:🧪 Data Lab — Semaine 03
+DESCRIPTION:Pratique : Construire un petit flux API → PostgreSQL.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-4@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261014T163000
+DTEND;TZID=Africa/Abidjan:20261014T173000
+SUMMARY:📊 Data — Données d’authentification
+DESCRIPTION:Étude : Utilisateurs\, rôles\, événements\, audit et données sensibles.\nObjectif : Concevoir un schéma d’audit propre et exploitable.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-4@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261018T140000
+DTEND;TZID=Africa/Abidjan:20261018T160000
+SUMMARY:🧪 Data Lab — Semaine 04
+DESCRIPTION:Pratique : Concevoir un schéma d’audit propre et exploitable.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-5@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261021T163000
+DTEND;TZID=Africa/Abidjan:20261021T173000
+SUMMARY:📊 Data — PostgreSQL avancé
+DESCRIPTION:Étude : Index\, contraintes\, transactions et optimisation.\nObjectif : Optimiser les tables utiles au CIV Super App.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-5@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261025T140000
+DTEND;TZID=Africa/Abidjan:20261025T160000
+SUMMARY:🧪 Data Lab — Semaine 05
+DESCRIPTION:Pratique : Optimiser les tables utiles au CIV Super App.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-6@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261028T163000
+DTEND;TZID=Africa/Abidjan:20261028T173000
+SUMMARY:📊 Data — Événements & données
+DESCRIPTION:Étude : Événements métier\, RabbitMQ/Kafka et schémas d’événements.\nObjectif : Identifier les données produites par chaque mini-app.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-6@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261101T140000
+DTEND;TZID=Africa/Abidjan:20261101T160000
+SUMMARY:🧪 Data Lab — Semaine 06
+DESCRIPTION:Pratique : Identifier les données produites par chaque mini-app.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-7@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261104T163000
+DTEND;TZID=Africa/Abidjan:20261104T173000
+SUMMARY:📊 Data — Données de paiement
+DESCRIPTION:Étude : Transactions\, statuts\, idempotence et rapprochement.\nObjectif : Modéliser un jeu de données de transactions fictives.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-7@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261108T140000
+DTEND;TZID=Africa/Abidjan:20261108T160000
+SUMMARY:🧪 Data Lab — Semaine 07
+DESCRIPTION:Pratique : Modéliser un jeu de données de transactions fictives.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-8@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261111T163000
+DTEND;TZID=Africa/Abidjan:20261111T173000
+SUMMARY:📊 Data — Qualité des données
+DESCRIPTION:Étude : Validation\, doublons\, valeurs manquantes et règles métier.\nObjectif : Créer des contrôles de qualité sur les données du projet.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-8@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261115T140000
+DTEND;TZID=Africa/Abidjan:20261115T160000
+SUMMARY:🧪 Data Lab — Semaine 08
+DESCRIPTION:Pratique : Créer des contrôles de qualité sur les données du projet.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-9@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261118T163000
+DTEND;TZID=Africa/Abidjan:20261118T173000
+SUMMARY:📊 Data — Logs & métriques
+DESCRIPTION:Étude : Logs structurés\, métriques et données d’observabilité.\nObjectif : Définir les métriques utiles d’une super app.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-9@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261122T140000
+DTEND;TZID=Africa/Abidjan:20261122T160000
+SUMMARY:🧪 Data Lab — Semaine 09
+DESCRIPTION:Pratique : Définir les métriques utiles d’une super app.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-10@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261125T163000
+DTEND;TZID=Africa/Abidjan:20261125T173000
+SUMMARY:📊 Data — Sécurité des données
+DESCRIPTION:Étude : PII\, minimisation\, accès\, chiffrement et traçabilité.\nObjectif : Faire une revue des données sensibles du projet.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-10@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261129T140000
+DTEND;TZID=Africa/Abidjan:20261129T160000
+SUMMARY:🧪 Data Lab — Semaine 10
+DESCRIPTION:Pratique : Faire une revue des données sensibles du projet.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-11@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261202T163000
+DTEND;TZID=Africa/Abidjan:20261202T173000
+SUMMARY:📊 Data — Analytics produit
+DESCRIPTION:Étude : KPI\, funnel\, rétention\, fréquence d’usage.\nObjectif : Définir un premier tableau de bord CIV Super App.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-11@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261206T140000
+DTEND;TZID=Africa/Abidjan:20261206T160000
+SUMMARY:🧪 Data Lab — Semaine 11
+DESCRIPTION:Pratique : Définir un premier tableau de bord CIV Super App.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-12@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261209T163000
+DTEND;TZID=Africa/Abidjan:20261209T173000
+SUMMARY:📊 Data — Data → Portfolio
+DESCRIPTION:Étude : Nettoyage\, documentation\, visualisation et présentation.\nObjectif : Finaliser un mini projet Data lié au CIV Super App.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-12@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261213T140000
+DTEND;TZID=Africa/Abidjan:20261213T160000
+SUMMARY:🧪 Data Lab — Semaine 12
+DESCRIPTION:Pratique : Finaliser un mini projet Data lié au CIV Super App.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-13@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261216T163000
+DTEND;TZID=Africa/Abidjan:20261216T173000
+SUMMARY:📊 Data — Python pour la Data
+DESCRIPTION:Étude : Syntaxe Python utile à la manipulation de données.\nObjectif : Écrire des scripts simples de transformation.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-13@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261220T140000
+DTEND;TZID=Africa/Abidjan:20261220T160000
+SUMMARY:🧪 Data Lab — Semaine 13
+DESCRIPTION:Pratique : Écrire des scripts simples de transformation.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-14@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261223T163000
+DTEND;TZID=Africa/Abidjan:20261223T173000
+SUMMARY:📊 Data — Pandas
+DESCRIPTION:Étude : DataFrame\, sélection\, filtres\, groupby et agrégations.\nObjectif : Analyser un CSV réel ou ouvert.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-14@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261227T140000
+DTEND;TZID=Africa/Abidjan:20261227T160000
+SUMMARY:🧪 Data Lab — Semaine 14
+DESCRIPTION:Pratique : Analyser un CSV réel ou ouvert.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-15@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20261230T163000
+DTEND;TZID=Africa/Abidjan:20261230T173000
+SUMMARY:📊 Data — Pandas avancé
+DESCRIPTION:Étude : Merge\, concat\, pivot\, dates et transformations.\nObjectif : Construire un pipeline de préparation.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-15@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270103T140000
+DTEND;TZID=Africa/Abidjan:20270103T160000
+SUMMARY:🧪 Data Lab — Semaine 15
+DESCRIPTION:Pratique : Construire un pipeline de préparation.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-16@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270106T163000
+DTEND;TZID=Africa/Abidjan:20270106T173000
+SUMMARY:📊 Data — NumPy & calcul
+DESCRIPTION:Étude : Tableaux\, opérations vectorisées et calcul numérique.\nObjectif : Automatiser des calculs analytiques.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-16@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270110T140000
+DTEND;TZID=Africa/Abidjan:20270110T160000
+SUMMARY:🧪 Data Lab — Semaine 16
+DESCRIPTION:Pratique : Automatiser des calculs analytiques.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-17@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270113T163000
+DTEND;TZID=Africa/Abidjan:20270113T173000
+SUMMARY:📊 Data — Statistiques descriptives
+DESCRIPTION:Étude : Moyenne\, médiane\, dispersion\, quantiles.\nObjectif : Produire un rapport statistique simple.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-17@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270117T140000
+DTEND;TZID=Africa/Abidjan:20270117T160000
+SUMMARY:🧪 Data Lab — Semaine 17
+DESCRIPTION:Pratique : Produire un rapport statistique simple.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-18@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270120T163000
+DTEND;TZID=Africa/Abidjan:20270120T173000
+SUMMARY:📊 Data — Probabilités utiles
+DESCRIPTION:Étude : Probabilités\, distributions et interprétation.\nObjectif : Relier probabilités et analyse de données.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-18@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270124T140000
+DTEND;TZID=Africa/Abidjan:20270124T160000
+SUMMARY:🧪 Data Lab — Semaine 18
+DESCRIPTION:Pratique : Relier probabilités et analyse de données.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-19@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270127T163000
+DTEND;TZID=Africa/Abidjan:20270127T173000
+SUMMARY:📊 Data — Échantillonnage
+DESCRIPTION:Étude : Échantillons\, biais et représentativité.\nObjectif : Analyser les limites d’un jeu de données.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-19@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270131T140000
+DTEND;TZID=Africa/Abidjan:20270131T160000
+SUMMARY:🧪 Data Lab — Semaine 19
+DESCRIPTION:Pratique : Analyser les limites d’un jeu de données.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-20@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270203T163000
+DTEND;TZID=Africa/Abidjan:20270203T173000
+SUMMARY:📊 Data — EDA
+DESCRIPTION:Étude : Exploration\, corrélations\, anomalies et hypothèses.\nObjectif : Faire une analyse exploratoire complète.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-20@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270207T140000
+DTEND;TZID=Africa/Abidjan:20270207T160000
+SUMMARY:🧪 Data Lab — Semaine 20
+DESCRIPTION:Pratique : Faire une analyse exploratoire complète.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-21@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270210T163000
+DTEND;TZID=Africa/Abidjan:20270210T173000
+SUMMARY:📊 Data — Data storytelling
+DESCRIPTION:Étude : Questions\, indicateurs\, graphiques et narration.\nObjectif : Présenter les résultats d’une EDA.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-21@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270214T140000
+DTEND;TZID=Africa/Abidjan:20270214T160000
+SUMMARY:🧪 Data Lab — Semaine 21
+DESCRIPTION:Pratique : Présenter les résultats d’une EDA.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-22@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270217T163000
+DTEND;TZID=Africa/Abidjan:20270217T173000
+SUMMARY:📊 Data — Power BI
+DESCRIPTION:Étude : Importation\, modèle et relations.\nObjectif : Créer le premier modèle BI.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-22@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270221T140000
+DTEND;TZID=Africa/Abidjan:20270221T160000
+SUMMARY:🧪 Data Lab — Semaine 22
+DESCRIPTION:Pratique : Créer le premier modèle BI.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-23@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270224T163000
+DTEND;TZID=Africa/Abidjan:20270224T173000
+SUMMARY:📊 Data — Power BI
+DESCRIPTION:Étude : Power Query et nettoyage.\nObjectif : Préparer une source de données de bout en bout.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-23@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270228T140000
+DTEND;TZID=Africa/Abidjan:20270228T160000
+SUMMARY:🧪 Data Lab — Semaine 23
+DESCRIPTION:Pratique : Préparer une source de données de bout en bout.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-24@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270303T163000
+DTEND;TZID=Africa/Abidjan:20270303T173000
+SUMMARY:📊 Data — DAX
+DESCRIPTION:Étude : Mesures\, contexte de filtre et CALCULATE.\nObjectif : Créer des KPI métiers.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-24@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270307T140000
+DTEND;TZID=Africa/Abidjan:20270307T160000
+SUMMARY:🧪 Data Lab — Semaine 24
+DESCRIPTION:Pratique : Créer des KPI métiers.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-25@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270310T163000
+DTEND;TZID=Africa/Abidjan:20270310T173000
+SUMMARY:📊 Data — DAX avancé
+DESCRIPTION:Étude : Time intelligence et mesures comparatives.\nObjectif : Construire des indicateurs mensuels.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-25@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270314T140000
+DTEND;TZID=Africa/Abidjan:20270314T160000
+SUMMARY:🧪 Data Lab — Semaine 25
+DESCRIPTION:Pratique : Construire des indicateurs mensuels.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-26@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270317T163000
+DTEND;TZID=Africa/Abidjan:20270317T173000
+SUMMARY:📊 Data — Dashboard
+DESCRIPTION:Étude : UX de dashboard\, filtres et navigation.\nObjectif : Créer un dashboard professionnel.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-26@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270321T140000
+DTEND;TZID=Africa/Abidjan:20270321T160000
+SUMMARY:🧪 Data Lab — Semaine 26
+DESCRIPTION:Pratique : Créer un dashboard professionnel.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-27@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270324T163000
+DTEND;TZID=Africa/Abidjan:20270324T173000
+SUMMARY:📊 Data — ETL / ELT
+DESCRIPTION:Étude : Différences\, étapes et architecture.\nObjectif : Dessiner puis implémenter un pipeline.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-27@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270328T140000
+DTEND;TZID=Africa/Abidjan:20270328T160000
+SUMMARY:🧪 Data Lab — Semaine 27
+DESCRIPTION:Pratique : Dessiner puis implémenter un pipeline.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-28@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270331T163000
+DTEND;TZID=Africa/Abidjan:20270331T173000
+SUMMARY:📊 Data — Pipeline Python
+DESCRIPTION:Étude : Extraction\, transformation\, chargement.\nObjectif : Construire un ETL Python.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-28@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270404T140000
+DTEND;TZID=Africa/Abidjan:20270404T160000
+SUMMARY:🧪 Data Lab — Semaine 28
+DESCRIPTION:Pratique : Construire un ETL Python.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-29@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270407T163000
+DTEND;TZID=Africa/Abidjan:20270407T173000
+SUMMARY:📊 Data — Data Warehouse
+DESCRIPTION:Étude : Faits\, dimensions et schéma en étoile.\nObjectif : Modéliser un entrepôt analytique.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-29@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270411T140000
+DTEND;TZID=Africa/Abidjan:20270411T160000
+SUMMARY:🧪 Data Lab — Semaine 29
+DESCRIPTION:Pratique : Modéliser un entrepôt analytique.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-30@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270414T163000
+DTEND;TZID=Africa/Abidjan:20270414T173000
+SUMMARY:📊 Data — dbt / transformation
+DESCRIPTION:Étude : Modèles\, tests et documentation.\nObjectif : Structurer des transformations reproductibles.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-30@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270418T140000
+DTEND;TZID=Africa/Abidjan:20270418T160000
+SUMMARY:🧪 Data Lab — Semaine 30
+DESCRIPTION:Pratique : Structurer des transformations reproductibles.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-31@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270421T163000
+DTEND;TZID=Africa/Abidjan:20270421T173000
+SUMMARY:📊 Data — Airflow
+DESCRIPTION:Étude : DAG\, tâches et dépendances.\nObjectif : Créer un premier DAG.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-31@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270425T140000
+DTEND;TZID=Africa/Abidjan:20270425T160000
+SUMMARY:🧪 Data Lab — Semaine 31
+DESCRIPTION:Pratique : Créer un premier DAG.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-32@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270428T163000
+DTEND;TZID=Africa/Abidjan:20270428T173000
+SUMMARY:📊 Data — Airflow avancé
+DESCRIPTION:Étude : Scheduling\, retries\, logs et paramètres.\nObjectif : Orchestrer un pipeline complet.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-32@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270502T140000
+DTEND;TZID=Africa/Abidjan:20270502T160000
+SUMMARY:🧪 Data Lab — Semaine 32
+DESCRIPTION:Pratique : Orchestrer un pipeline complet.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-33@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270505T163000
+DTEND;TZID=Africa/Abidjan:20270505T173000
+SUMMARY:📊 Data — Data quality
+DESCRIPTION:Étude : Tests\, contraintes et contrôles automatisés.\nObjectif : Ajouter des tests au pipeline.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-33@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270509T140000
+DTEND;TZID=Africa/Abidjan:20270509T160000
+SUMMARY:🧪 Data Lab — Semaine 33
+DESCRIPTION:Pratique : Ajouter des tests au pipeline.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-34@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270512T163000
+DTEND;TZID=Africa/Abidjan:20270512T173000
+SUMMARY:📊 Data — Kafka
+DESCRIPTION:Étude : Topics\, producers\, consumers et partitions.\nObjectif : Simuler un flux d’événements.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-34@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270516T140000
+DTEND;TZID=Africa/Abidjan:20270516T160000
+SUMMARY:🧪 Data Lab — Semaine 34
+DESCRIPTION:Pratique : Simuler un flux d’événements.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-35@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270519T163000
+DTEND;TZID=Africa/Abidjan:20270519T173000
+SUMMARY:📊 Data — Kafka avancé
+DESCRIPTION:Étude : Consumer groups\, offsets et fiabilité.\nObjectif : Construire un mini pipeline temps réel.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-35@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270523T140000
+DTEND;TZID=Africa/Abidjan:20270523T160000
+SUMMARY:🧪 Data Lab — Semaine 35
+DESCRIPTION:Pratique : Construire un mini pipeline temps réel.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-36@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270526T163000
+DTEND;TZID=Africa/Abidjan:20270526T173000
+SUMMARY:📊 Data — Spark
+DESCRIPTION:Étude : RDD/DataFrame et architecture distribuée.\nObjectif : Manipuler un jeu de données avec Spark.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-36@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270530T140000
+DTEND;TZID=Africa/Abidjan:20270530T160000
+SUMMARY:🧪 Data Lab — Semaine 36
+DESCRIPTION:Pratique : Manipuler un jeu de données avec Spark.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-37@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270602T163000
+DTEND;TZID=Africa/Abidjan:20270602T173000
+SUMMARY:📊 Data — Spark SQL
+DESCRIPTION:Étude : SQL distribué et transformations.\nObjectif : Faire une analyse distribuée.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-37@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270606T140000
+DTEND;TZID=Africa/Abidjan:20270606T160000
+SUMMARY:🧪 Data Lab — Semaine 37
+DESCRIPTION:Pratique : Faire une analyse distribuée.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-38@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270609T163000
+DTEND;TZID=Africa/Abidjan:20270609T173000
+SUMMARY:📊 Data — Streaming
+DESCRIPTION:Étude : Principes du traitement temps réel.\nObjectif : Connecter événements et analytics.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-38@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270613T140000
+DTEND;TZID=Africa/Abidjan:20270613T160000
+SUMMARY:🧪 Data Lab — Semaine 38
+DESCRIPTION:Pratique : Connecter événements et analytics.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-39@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270616T163000
+DTEND;TZID=Africa/Abidjan:20270616T173000
+SUMMARY:📊 Data — Cloud Data
+DESCRIPTION:Étude : Stockage objet\, bases managées et IAM.\nObjectif : Dessiner une architecture Data cloud.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-39@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270620T140000
+DTEND;TZID=Africa/Abidjan:20270620T160000
+SUMMARY:🧪 Data Lab — Semaine 39
+DESCRIPTION:Pratique : Dessiner une architecture Data cloud.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-40@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270623T163000
+DTEND;TZID=Africa/Abidjan:20270623T173000
+SUMMARY:📊 Data — Cloud pipeline
+DESCRIPTION:Étude : Déploiement et coûts.\nObjectif : Déployer un petit composant Data.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-40@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270627T140000
+DTEND;TZID=Africa/Abidjan:20270627T160000
+SUMMARY:🧪 Data Lab — Semaine 40
+DESCRIPTION:Pratique : Déployer un petit composant Data.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-41@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270630T163000
+DTEND;TZID=Africa/Abidjan:20270630T173000
+SUMMARY:📊 Data — Data security
+DESCRIPTION:Étude : IAM\, secrets\, chiffrement et gouvernance.\nObjectif : Sécuriser un pipeline.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-41@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270704T140000
+DTEND;TZID=Africa/Abidjan:20270704T160000
+SUMMARY:🧪 Data Lab — Semaine 41
+DESCRIPTION:Pratique : Sécuriser un pipeline.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-42@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270707T163000
+DTEND;TZID=Africa/Abidjan:20270707T173000
+SUMMARY:📊 Data — Data observability
+DESCRIPTION:Étude : Fraîcheur\, volume\, qualité et alertes.\nObjectif : Définir des indicateurs de santé Data.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-42@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270711T140000
+DTEND;TZID=Africa/Abidjan:20270711T160000
+SUMMARY:🧪 Data Lab — Semaine 42
+DESCRIPTION:Pratique : Définir des indicateurs de santé Data.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-43@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270714T163000
+DTEND;TZID=Africa/Abidjan:20270714T173000
+SUMMARY:📊 Data — CIV Data Lab
+DESCRIPTION:Étude : Conception du projet capstone.\nObjectif : Définir source\, pipeline\, stockage et KPI.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-43@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270718T140000
+DTEND;TZID=Africa/Abidjan:20270718T160000
+SUMMARY:🧪 Data Lab — Semaine 43
+DESCRIPTION:Pratique : Définir source\, pipeline\, stockage et KPI.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-44@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270721T163000
+DTEND;TZID=Africa/Abidjan:20270721T173000
+SUMMARY:📊 Data — CIV Data Lab
+DESCRIPTION:Étude : Collecte et ingestion.\nObjectif : Construire l’ingestion.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-44@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270725T140000
+DTEND;TZID=Africa/Abidjan:20270725T160000
+SUMMARY:🧪 Data Lab — Semaine 44
+DESCRIPTION:Pratique : Construire l’ingestion.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-45@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270728T163000
+DTEND;TZID=Africa/Abidjan:20270728T173000
+SUMMARY:📊 Data — CIV Data Lab
+DESCRIPTION:Étude : Transformation et modèle analytique.\nObjectif : Construire le modèle de données.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-45@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270801T140000
+DTEND;TZID=Africa/Abidjan:20270801T160000
+SUMMARY:🧪 Data Lab — Semaine 45
+DESCRIPTION:Pratique : Construire le modèle de données.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-46@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270804T163000
+DTEND;TZID=Africa/Abidjan:20270804T173000
+SUMMARY:📊 Data — CIV Data Lab
+DESCRIPTION:Étude : Dashboard et API Data.\nObjectif : Construire la restitution.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-46@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270808T140000
+DTEND;TZID=Africa/Abidjan:20270808T160000
+SUMMARY:🧪 Data Lab — Semaine 46
+DESCRIPTION:Pratique : Construire la restitution.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-47@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270811T163000
+DTEND;TZID=Africa/Abidjan:20270811T173000
+SUMMARY:📊 Data — CIV Data Lab
+DESCRIPTION:Étude : Qualité\, sécurité et documentation.\nObjectif : Finaliser le projet.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-47@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270815T140000
+DTEND;TZID=Africa/Abidjan:20270815T160000
+SUMMARY:🧪 Data Lab — Semaine 47
+DESCRIPTION:Pratique : Finaliser le projet.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-48@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270818T163000
+DTEND;TZID=Africa/Abidjan:20270818T173000
+SUMMARY:📊 Data — Portfolio Data
+DESCRIPTION:Étude : README\, architecture et démonstration.\nObjectif : Publier le projet proprement.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-48@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270822T140000
+DTEND;TZID=Africa/Abidjan:20270822T160000
+SUMMARY:🧪 Data Lab — Semaine 48
+DESCRIPTION:Pratique : Publier le projet proprement.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-49@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270825T163000
+DTEND;TZID=Africa/Abidjan:20270825T173000
+SUMMARY:📊 Data — Carrière Data
+DESCRIPTION:Étude : CV\, GitHub\, LinkedIn et présentation du profil.\nObjectif : Préparer ton positionnement Fullstack + Data.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-49@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270829T140000
+DTEND;TZID=Africa/Abidjan:20270829T160000
+SUMMARY:🧪 Data Lab — Semaine 49
+DESCRIPTION:Pratique : Préparer ton positionnement Fullstack + Data.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-50@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270901T163000
+DTEND;TZID=Africa/Abidjan:20270901T173000
+SUMMARY:📊 Data — Projet final
+DESCRIPTION:Étude : Challenge Data complet.\nObjectif : Réaliser une analyse de bout en bout.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-50@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270905T140000
+DTEND;TZID=Africa/Abidjan:20270905T160000
+SUMMARY:🧪 Data Lab — Semaine 50
+DESCRIPTION:Pratique : Réaliser une analyse de bout en bout.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-learning-51@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270908T163000
+DTEND;TZID=Africa/Abidjan:20270908T173000
+SUMMARY:📊 Data — Bilan 12 mois
+DESCRIPTION:Étude : Évaluation des compétences et prochaines spécialisations.\nObjectif : Définir la suite : Data Engineer / Analytics / AI Engineer.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data — session dans 30 minutes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:data-lab-51@chatgpt
+DTSTAMP:20260921T100000Z
+DTSTART;TZID=Africa/Abidjan:20270912T140000
+DTEND;TZID=Africa/Abidjan:20270912T160000
+SUMMARY:🧪 Data Lab — Semaine 51
+DESCRIPTION:Pratique : Définir la suite : Data Engineer / Analytics / AI Engineer.\nLivrable : produire un résultat concret et le documenter dans GitHub.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Data Lab — session dans 30 minutes
+END:VALARM
+END:VEVENT
+END:VCALENDAR
